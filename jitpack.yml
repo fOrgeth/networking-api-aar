@@ -1,0 +1,3 @@
+install:
+  - FILE="-Dfile=networking-api-0.9.5.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.forgeth -DartifactId=networking-api-aar -Dversion=0.9.6 -Dpackaging=aar -DgeneratePom=true
